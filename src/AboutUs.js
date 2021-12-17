@@ -4,7 +4,7 @@ import Footer from './components/Footer'
 export default function AboutUs() {
     return (
 <div>
-    <Header/>
+    {/* <Header/> */}
   {/*body content wrap start*/}
   <div className="main">
     {/*header section start*/}

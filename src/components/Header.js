@@ -51,13 +51,15 @@ export default function Header() {
           <Link to="/"><NavDropdown title="Services" id="navbarScrollingDropdown"  className='ml-2 '>
             
             <div className='assignment'>
-          <Link to="/philosophy"><NavDropdown.Item href="/action1">PHILOSOPHY ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action2">PTHYSICS ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/PhilosophyAssignment"><NavDropdown.Item href="/action1">PHILOSOPHY ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/"><NavDropdown.Item href="/action2">PHYSICS ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action3">PROGRAMMING ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/"><NavDropdown.Item href="/action3">PSYCHOLOGY ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action4">SOCIOLOGY ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action5">STATISTICS ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action6">NURSING ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action7">MANAGEMENT ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/"><NavDropdown.Item href="/action23">LINGUISTICS  ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action8">COMPUTER SCIENCE ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action9">BUSSINESS ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action10">ACCOUNTING SCIENCE ASSIGNMENT</NavDropdown.Item></Link>
@@ -73,7 +75,7 @@ export default function Header() {
           <Link to="/"><NavDropdown.Item href="/action20">ENGLISH  ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action21">BIOLOGY  ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action22">MARKETING  ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action23">LINGUISTICS  ASSIGNMENT</NavDropdown.Item></Link>
+          
           </div>
           
         </NavDropdown></Link>

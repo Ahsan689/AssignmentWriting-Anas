@@ -50,7 +50,7 @@ function Home() {
     <>
     {/*topbar start*/}
     
-<Header/>
+{/* <Header/> */}
 <section className="ptb-70 cov">
   <div className="container">
     <div className="row align-items-center">
