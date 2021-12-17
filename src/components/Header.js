@@ -52,29 +52,29 @@ export default function Header() {
             
             <div className='assignment'>
           <Link to="/PhilosophyAssignment"><NavDropdown.Item href="/action1">PHILOSOPHY ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action2">PHYSICS ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action3">PROGRAMMING ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action3">PSYCHOLOGY ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action4">SOCIOLOGY ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action5">STATISTICS ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action6">NURSING ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action7">MANAGEMENT ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action23">LINGUISTICS  ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action8">COMPUTER SCIENCE ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action9">BUSSINESS ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action10">ACCOUNTING SCIENCE ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action11">FINANCE SCIENCE ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action12">ECONOMICS SCIENCE ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action13">HISTORY SCIENCE ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action14">GEOGRAPHY SCIENCE ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action15">LAW  ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action16">CHEMISTRY ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action17">MATH ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action18">IT  ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action19">ENGINEERING  ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action20">ENGLISH  ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action21">BIOLOGY  ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action22">MARKETING  ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/PhysicsAssignment"><NavDropdown.Item href="/action2">PHYSICS ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/ProgrammingAssignment"><NavDropdown.Item href="/action3">PROGRAMMING ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/PsychologyAssignment"><NavDropdown.Item href="/action3">PSYCHOLOGY ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/SociologyAssignment"><NavDropdown.Item href="/action4">SOCIOLOGY ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/StatisticsAssignment"><NavDropdown.Item href="/action5">STATISTICS ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/NursingAssignment"><NavDropdown.Item href="/action6">NURSING ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/ManagementAssignment"><NavDropdown.Item href="/action7">MANAGEMENT ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/LinguisticAssignment"><NavDropdown.Item href="/action23">LINGUISTICS  ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/ComputerScienceAssignment"><NavDropdown.Item href="/action8">COMPUTER SCIENCE ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/BussinessAssignment"><NavDropdown.Item href="/action9">BUSSINESS ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/AccountingAssignment"><NavDropdown.Item href="/action10">ACCOUNTING SCIENCE ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/FinanceAssignment"><NavDropdown.Item href="/action11">FINANCE SCIENCE ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/EconomicsAssignment"><NavDropdown.Item href="/action12">ECONOMICS SCIENCE ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/HistoryAssignment"><NavDropdown.Item href="/action13">HISTORY SCIENCE ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/GeographyAssignment"><NavDropdown.Item href="/action14">GEOGRAPHY SCIENCE ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/LawAssignment"><NavDropdown.Item href="/action15">LAW  ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/ChemistryAssignment"><NavDropdown.Item href="/action16">CHEMISTRY ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/MathAssignment"><NavDropdown.Item href="/action17">MATH ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/ITAssignment"><NavDropdown.Item href="/action18">IT  ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/EngineeringAssignment"><NavDropdown.Item href="/action19">ENGINEERING  ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/EnglishAssignment"><NavDropdown.Item href="/action20">ENGLISH  ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/BiologyAssignment"><NavDropdown.Item href="/action21">BIOLOGY  ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/MarketingAssignment"><NavDropdown.Item href="/action22">MARKETING  ASSIGNMENT</NavDropdown.Item></Link>
           
           </div>
           
