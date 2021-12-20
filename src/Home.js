@@ -51,13 +51,13 @@ function Home() {
     {/*topbar start*/}
     
 {/* <Header/> */}
-<section className="ptb-70 cov">
-  <div className="container">
+<section className="ptb-70 cov mt-5">
+  <div className="container mt-3">
     <div className="row align-items-center">
       <div className="col-md-6 col-lg-6 col-sm-12">
         <div className="hero-slider-content text-white pt-5">
-          <h1><span className="ico">The</span> <span className="text-white">Assignment</span> <span className="ico">Writing</span></h1>
-          <p className="lead"> <i className="fa fa-check check-2 ico " />Quality Assignment Help By Expert Writers</p>
+          <h1 className='mt-5'><span className="ico">The</span> <span className="text-white">Assignment</span> <span className="ico">Writing</span></h1>
+          <p className="lead"> <i className=" ico " />Quality Assignment Help By Expert Writers</p>
           <p className="lead"> <i className="fa fa-check check-2 ico" />100+ Students Support Executive to Listen Students Requirement
           </p>
           <p className="lead"><i className="fa fa-check check-2 ico" />Highest Grade for All Academic Needs
@@ -77,10 +77,10 @@ function Home() {
         </div>
       </div>
       <div className="col-md-6 col-sm-12 col-lg-6">
-        <div className="image-wrap pt-5">
+        <div className="image-wrap pt-5 mt-5 text-center">
           {/* <img src="img/t1-hero-img.svg" class="img-fluid custom-width" alt="hero" /> */}
-          <h1><span className="ico">The</span> <span className="text-white">Assignment</span> <span className="ico">Writing</span></h1>
-          <p className="text-white">Get Assignment Help From World’s No.1 Assignment Help Company</p>
+          <h5><span className="ico">The</span> <span className="text-white">Assignment</span> <span className="ico">Writing</span></h5>
+          <h6 className="text-white mb-2">Get Assignment Help From World’s No.1 Assignment Help Company</h6>
           <form action>
             <input type="email" name="email" className="p-2" placeholder="Enter your Email" id size={30} minLength style={{width: '81%'}} /><br />
             <br />
@@ -94,7 +94,7 @@ function Home() {
             <br />
             <input type="time" className="p-2" name="time" id size={60} minLength={60} style={{width: '81%'}} /><br />
             <br />
-            <button className="text-white primary-bg p-1" type="submit"><strong>Free Assistance</strong></button>
+            <button className=" btn primary-bg btn-lg text-light p-2" type="submit"><strong>Free Assistance</strong></button>
           </form>
         </div>
       </div>
@@ -490,17 +490,17 @@ function Home() {
   <div className="row justify-content-around mb-5">
     <div className="col-lg-3 col-md-3 col-sm-12 text-center sha mt-4">
       <img src={icon5} className alt />
-      <h2>Secure Payments</h2>
+      <h4>Secure Payments</h4>
       <p>Sleep tight: PayPal watches over your rights.</p>
     </div>
     <div className="col-lg-3 col-md-3 col-sm-12 text-center sha mt-4"> 
       <img src={icon6} alt />
-      <h2>Data Protection</h2>
+      <h4>Data Protection</h4>
       <p>We encrypt everything. It's all confidential.</p>
     </div>
     <div className="col-lg-3 col-md-3 col-sm-12 text-center sha mt-4">
       <img src={icon7} alt />
-      <h2>Guaranteed Originality</h2>
+      <h4>Guaranteed Originality</h4>
       <p>Get a free plagiarism report upon request.</p>
     </div>
   </div>
@@ -515,7 +515,7 @@ function Home() {
       <span className="animate-border mr-auto ml-auto mb-4 mm" />
       <div className="row  justify-content-around mn">
         <div className="col-md-3 sha  shadow mt-4">
-          <img src={card1} alt='card image 1' />
+          <img className='card-images' src={card1} alt='card image 1' />
           <h5 className="help ico"><b>Custom Assignment Help</b></h5>
           <p className="provide">We provide most reliable and proficient service to help you work on those
             intricate assignments.
@@ -523,7 +523,7 @@ function Home() {
             papers.</p>
         </div>
         <div className="col-md-3 sha shadow mt-4">
-          <img src={card2} alt="card image 2" />
+          <img className='card-images' src={card2} alt="card image 2" />
           <h2 className="help-1 ico"><b>Custom Essay Writing Help</b></h2>
           <p className="provide-1">We offer premium essay writing help in a customised manner. Our Native essay
             tutors help you meet
@@ -531,7 +531,7 @@ function Home() {
             excellence.</p>
         </div>
         <div className="col-md-3 sha shadow mt-4">
-          <img src={card3} alt="card image 3" />
+          <img className='card-images' src={card3} alt="card image 3" />
           <h2 className="help-1 ico"> <b>Dissertation Writing Help</b></h2>
           <p className="provide-1">We offer distinctive service in detailed research for your dissertation on any
             topic from any
@@ -539,7 +539,7 @@ function Home() {
             reliable results.</p>
         </div>
         <div className="col-md-3 sha shadow mt-4">
-          <img src={card4} alt="card image 4" />
+          <img className='card-images' src={card4} alt="card image 4" />
           
           <h2 className="help-1 ico"><b>Custom Coursework Help</b></h2><b>
             <p className="provide-1">We provide dependable coursework help to meet your writing needs in a

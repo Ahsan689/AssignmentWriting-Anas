@@ -593,7 +593,7 @@ select.form-control.has-value{
 
 /*header topbar*/
 .topbar-text ul li {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
@@ -676,7 +676,9 @@ select.form-control.has-value{
     height: auto;
     margin-bottom: -8px;
 }
-
+.brand-logo{
+    width: 100%;
+}
 .menu {
     display: block;
 }
@@ -1434,6 +1436,27 @@ select.form-control.has-value{
         background-image: none !important;
         background: #4d3f25 !important;
         width: 100%;
+    }
+    #lower-container
+    {
+    background-color: #3a2c19;
+    width: 100%;
+    position: none;
+    top: 44px;
+    transition: Top 0.8s;
+    z-index: 9999;
+    box-shadow: 2px 2px 4px
+    }
+    .upper-container
+    {
+    width: 100%;
+    align-items: center;
+    line-height: 2em;
+    background-color: #dd9933;
+    z-index: 99;
+    /* position: fixed; */
+    top: 0px;
+    transition: Top 1s;
     }
 }
 @media only screen and (max-width: 991px) and (min-width: 768px){
@@ -5153,8 +5176,21 @@ display: none;
  .assignment{
      height: 50vh;
      overflow: scroll;
- 
+    overflow-x: hidden;
+    background-color: rgb(250, 245, 237);
+    
  }
+
+ .assignment::-webkit-scrollbar {
+    width: 7px;
+    background-color:#9b9494;
+   }
+   .assignment::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color:#e4e2e2;
+    border-radius: 20px;
+   }
+  
  p{
      font-size: 20px;
  }
@@ -5555,4 +5591,44 @@ h3>a{
     z-index: 9999;
     opacity: 0.8;
     /* transition: opacity 2s ease-in; */
+}
+.search-box{
+    border-radius: 25px;
+}
+.upper-container
+{
+  width: 100%;
+  align-items: center;
+  line-height: 2em;
+  background-color: #dd9933;
+  z-index: 99;
+  position: fixed;
+  top: 0px;
+  transition: Top 1s;
+}
+#lower-container
+{
+  background-color: #3a2c19;
+  width: 100%;
+  position: fixed;
+  top: 44px;
+  transition: Top 0.8s;
+  z-index: 9999;
+  box-shadow: 2px 2px 4px
+}
+.contact-btn{
+    border-radius: 25px;
+}
+.search-btn{
+    border-radius: 10px;
+    border-color: black;
+}
+.navbar-link-color{
+    color: #9b9494 !important;
+}
+.navbar-link-color:hover{
+    color: #DD9933 !important;
+}
+.card-images{
+    width: 100%;
 }

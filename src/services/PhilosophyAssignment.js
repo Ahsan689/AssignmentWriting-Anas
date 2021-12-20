@@ -10,7 +10,7 @@ export default function PhilosophyAssignment() {
         data-id="aca6592"
         data-element_type="section"
         data-settings='{"stretch_section":"section-stretched"}'
-        style={{ width: 1519, left: "-234.6px" }}
+        // style={{ width: 1519, left: "-234.6px" }}
       >
         <div className="elementor-background-overlay" />
         <div className="elementor-container elementor-column-gap-default">
