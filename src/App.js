@@ -12,7 +12,8 @@ import PhilosophyAssignment from './services/PhilosophyAssignment'
 import NursingAssignment from './services/NursingAssignment'
 import PhysicsAssignment from '../src/services/PhysicsAssignment'
 import ProgrammingAssignment from './services/ProgrammingAssignment'
-import PhychologyAssignment from '../src/services/PhychologyAssignment'
+import PhychologyAssignment from './services/PsychologyAssignment'
+import SociologyAssignment from './services/SociologyAssignment'
 
 export default function App() {
   return (
@@ -33,6 +34,8 @@ export default function App() {
           <Route path="/NursingAssignment" element={<NursingAssignment/>}/>
           <Route path="/ProgrammingAssignment" element={<ProgrammingAssignment/>}/>
           <Route path="/PhychologyAssignment" element={<PhychologyAssignment/>}/>
+          <Route path="/SociologyAssignment" element={<SociologyAssignment/>}/>
+
 
         </Routes>
       </BrowserRouter>

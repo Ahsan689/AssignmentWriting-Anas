@@ -54,7 +54,7 @@ export default function Header() {
           <Link to="/philosophy"><NavDropdown.Item href="/action1">PHILOSOPHY ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/PhysicsAssignment"><NavDropdown.Item href="/action2">PTHYSICS ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/ProgrammingAssignment"><NavDropdown.Item href="/action3">PROGRAMMING ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action4">SOCIOLOGY ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/SociologyAssignment"><NavDropdown.Item href="/action4">SOCIOLOGY ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action5">STATISTICS ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/NursingAssignment"><NavDropdown.Item href="/action6">NURSING ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action7">MANAGEMENT ASSIGNMENT</NavDropdown.Item></Link>
