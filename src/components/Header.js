@@ -26,7 +26,7 @@ export default function Header() {
       </div>
       <div className="col-md-2 col-lg-2">
         <div className="topbar-text text-white">
-          <a href="/contact-us.php" className="btn btn-pills pink ">CONTECT US</a>
+          <Link to="/contact" className="btn btn-pills pink ">CONTECT US</Link>
         </div>
       </div>
     </div>
@@ -35,9 +35,9 @@ export default function Header() {
 {/*topbar end*/}
 
   <Navbar bg=""  className='pink stick sticky-top' expand="lg">
-  <Container>
+  <Container fluid>
     <Navbar.Brand href="/" >
-      <a to="/app.js"><img className="ml--5" src={assignmentwriting} width="100%" height="70" alt="" /></a>
+      <a to="/app.js"><img className="ml-5" src={assignmentwriting} width="100%" height="70" alt="" /></a>
       </Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
@@ -48,15 +48,15 @@ export default function Header() {
       >
           <Link to="/"><Nav.Link href="/action2"  className=' ml-1'>Home</Nav.Link></Link>
 
-          <Link to="/"><NavDropdown title="Services" id="navbarScrollingDropdown"  className='ml-2 '>
+          <Link to="/"><NavDropdown title="Services" id="navbarScrollingDropdown"  className='ml-1 '>
             
             <div className='assignment'>
           <Link to="/philosophy"><NavDropdown.Item href="/action1">PHILOSOPHY ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action2">PTHYSICS ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action3">PROGRAMMING ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/PhysicsAssignment"><NavDropdown.Item href="/action2">PTHYSICS ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/ProgrammingAssignment"><NavDropdown.Item href="/action3">PROGRAMMING ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action4">SOCIOLOGY ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action5">STATISTICS ASSIGNMENT</NavDropdown.Item></Link>
-          <Link to="/"><NavDropdown.Item href="/action6">NURSING ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/NursingAssignment"><NavDropdown.Item href="/action6">NURSING ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action7">MANAGEMENT ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action8">COMPUTER SCIENCE ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action9">BUSSINESS ASSIGNMENT</NavDropdown.Item></Link>
@@ -74,15 +74,20 @@ export default function Header() {
           <Link to="/"><NavDropdown.Item href="/action21">BIOLOGY  ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action22">MARKETING  ASSIGNMENT</NavDropdown.Item></Link>
           <Link to="/"><NavDropdown.Item href="/action23">LINGUISTICS  ASSIGNMENT</NavDropdown.Item></Link>
+          <Link to="/PhychologyAssignment"><NavDropdown.Item href="/action31">Phychology ASSIGNMENT</NavDropdown.Item></Link>
+
           </div>
           
         </NavDropdown></Link>
 
-        <Link to="/contact"><Nav.Link href="/action24"  className='mr-3 ml-3'>Contact</Nav.Link></Link>
-        <Link to="/samples"><Nav.Link href="/action25"  className='mr-3'>Sample</Nav.Link></Link>
-        <Link to="/"><Nav.Link href="/action26"  className='mr-3'>Reviews</Nav.Link></Link>
-        <Link to="/faq"><Nav.Link href="/action27"  className='mr-3'>FAQS</Nav.Link></Link>
-        <Link to="/about"><Nav.Link href="/action2"  className='mr-3'>About Us</Nav.Link></Link>
+        <Link to="/contact"><Nav.Link href="/action24"  className='mr-1 ml-1'>Contact</Nav.Link></Link>
+        <Link to="/Sample"><Nav.Link href="/action25"  className='mr-1'>Sample</Nav.Link></Link>
+        <Link to="/review"><Nav.Link href="/action26"  className='mr-1'>Reviews</Nav.Link></Link>
+        <Link to="/faq"><Nav.Link href="/action27"  className='mr-1'>FAQS</Nav.Link></Link>
+        <Link to="/about"><Nav.Link href="/action28"  className='mr-1'>About Us</Nav.Link></Link>
+        <Link to="/Experts"><Nav.Link href="/action29"  className='mr-1'>Experts</Nav.Link></Link>
+        <Link to="/Portfolio"><Nav.Link href="/action30"  className='mr-1'>Portfolio</Nav.Link></Link>
+
 
       
       

@@ -11,6 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 /*================
  Template Name: DigiMark Digital Marketing and Agency HTML Template
  Description: All type of Digital Marketing with marketing and agency template.
@@ -1900,7 +1901,8 @@ select.form-control.has-value{
 
 .services-single:hover {
     transition: all 0.3s ease-in;
-    background: linear-gradient(75deg, #dd993310 30%, #4d3f25);
+    background: linear-gradient(75deg, #dd993310 10%, #794a03);
+
     color: #fff;
 }
 .services-single:hover .services-single:after{
@@ -5438,8 +5440,40 @@ form>input{
     background: url('../src/assets/img/pen\ \(1).jpg')  no-repeat center center / cover;
     
 }
+.physics{
+    background: url('../src/assets/img/PeN\ \(2\).jpg')  no-repeat center center / cover;
+    
+}
+.philosophy{
+    background: url('../src/assets/img/index.jpeg')  no-repeat center center / cover;
+    
+}
+.sample{
+    background: url('../src/assets/img/macbook-pro-air-acd.jpg')  no-repeat center center / cover;
+    
+}
+.Portfolio{
+    background: url('../src/assets/img/portfolio4.jpeg')  no-repeat center center / cover;
+    
+    
+}
+.Experts{
+    background: url('../src/assets/img/Expertcover.jpg')  no-repeat center center / cover;
+    
+}
+
+.FQ{
+    background: url('../src/assets/img/FAQss.jpg')  no-repeat center center / cover;
+
+    
+}
+
 .About{
     background: url('../src/assets/img/aboutUS.jpg')  no-repeat center center / cover;
+    
+}
+.Review{
+    background: url('../src/assets/img/pen.jpg')  no-repeat center center / cover;
     
 }
 .contect-sec{
@@ -5450,6 +5484,9 @@ form>input{
     color:#dd9933;
 }
 
+.mr{
+    margin-left: 20px;
+}
 .assignment2{
     color: #f2aa4c;
 
@@ -5467,6 +5504,7 @@ form>input{
 }
 .icon-3{
     color:#dd9933;
+    background-color: darkcyan;
     margin-right: 20px;
 
  
@@ -5479,6 +5517,9 @@ form>input{
 }
 .box{
     box-shadow: 5px 5px 15px grey;
+    background: linear-gradient(75deg,#dd9933 10%, #4d3f25) !important;
+    color: #000;
+
     
 }
 .end{
@@ -5516,8 +5557,8 @@ form>input{
 .card{
     box-shadow: 15px 15px 7px grey;
     border: 2px solid black;
-    background-color: gold;
-
+    /* background-color: gold; */
+    background: linear-gradient(75deg,#dd9933 10%, #4d3f25) !important;
 }
 .subject-3{
     border-bottom:15px solid black ;

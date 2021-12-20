@@ -1,12 +1,14 @@
 import React from 'react'
-
+import Header from './components/Header'
+import Footer from './components/Footer'
 export default function Review() {
     return (
 <div>
+  <Header/>
   {/*body content wrap start*/}
   <div className="main">
     {/*hero section start*/}
-    <section className="hero-section ptb-100 gradient-overlay" >
+    <section className="hero-section ptb-100 Review" >
       <div className="container">
         <div className="row align-items-center justify-content-center">
           <div className="col-md-9 col-lg-7">
@@ -180,6 +182,7 @@ export default function Review() {
     </div> */}
     {/* end */}<br />
   </div>
+  <Footer/>
 </div>
 
     )
