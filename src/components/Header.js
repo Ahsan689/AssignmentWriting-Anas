@@ -109,7 +109,7 @@ export default function Header() {
 
         <Link className='' to="/expert"><Nav.Link href="/action24"  className=''>Expert</Nav.Link></Link>
         <Link to="/contact"><Nav.Link href="/action24"  className='mr-2 '>Contact</Nav.Link></Link>
-        <Link to="/samples"><Nav.Link href="/action25"  className='mr-2 '>Sample</Nav.Link></Link>
+        <Link to="/SampleComponent"><Nav.Link href="/action25"  className='mr-2 '>Sample</Nav.Link></Link>
         <Link to="/reviews"><Nav.Link href="/action26"  className='mr-2 '>Reviews</Nav.Link></Link>
         <Link to="/faq"><Nav.Link href="/action27"  className='mr-2 '>FAQS</Nav.Link></Link>
         <Link to="/about"><Nav.Link href="/action2"  className='mr-1 '>About Us</Nav.Link></Link>
