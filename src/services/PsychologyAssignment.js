@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import ServiceCover from '../components/ServiceCover'
 export default function PsychologyAssignment() {
     return (
 <div>
@@ -8,21 +9,7 @@ export default function PsychologyAssignment() {
   {/*body content wrap start*/}
   <div className="main">
     {/*hero section start*/}
-    <section className="hero-section ptb-100 philosophy" >
-      <div className="container">
-        <div className="row align-items-center justify-content-center">
-          <div className="col-md-9 col-lg-7">
-            <div className="page-header-content text-white text-center pt-sm-5 pt-md-5 pt-lg-0">
-              <h2 className="text-white mb-0">Effects Of Leadership Style On Employee Motivation
-              </h2>
-              <p><i className="fa fa-leaf" /><b>Free Tumitin Report</b></p>
-              <p><i className="fa fa-flag" /><b>7,00000+ Total Satisfied Student</b></p>
-              <p><i className="fa fa-thumbs-up" /><b>150+ Executive for Support Service</b></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <ServiceCover/>
     {/*hero section end*/}
     {/* paragraph start */}
     <br />

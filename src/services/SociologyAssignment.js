@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import ServiceCover from '../components/ServiceCover'
 export default function SociologyAssignment() {
     return (
        <div>
@@ -10,27 +11,13 @@ export default function SociologyAssignment() {
     {/*hero section start*/}
     <div className="main">
       {/*hero section start*/}
-      <section className="hero-section ptb-100 philosophy">
-        <div className="container">
-          <div className="row align-items-center justify-content-center">
-            <div className="col-md-9 col-lg-7">
-              <div className="page-header-content text-white text-center pt-sm-5 pt-md-5 pt-lg-0">
-                <h2 className="text-white mb-0">The <span className="text-danger">Fastest</span> Way to Better Grades
-                </h2>
-                <p><i className="fa fa-leaf" /><b>Free Tumitin Report</b></p>
-                <p><i className="fa fa-flag" /><b>7,00000+ Total Satisfied Student</b></p>
-                <p><i className="fa fa-thumbs-up" /><b>150+ Executive for Support Service</b></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     <ServiceCover/>
       {/*hero section end*/}
       {/* paragraph start */}
       <div className="container p-5">
         <div className="row">
           <div className="col-md-12">
-            <h2 className="text-center">Sociology Homework Help Online</h2>
+            <h3 className="">Sociology Homework Help Online</h3>
           </div>
         </div>
         <p>Do you need to pay someone to help with your sociology assignment writing? Do you want to find a reliable
@@ -42,19 +29,19 @@ export default function SociologyAssignment() {
           writing assignments. This could be terrible for anyone who is majoring in the discipline but it could
           also have negative implications for one’s academic career in general. This is where The Assignment
           Writing could be of great help.</p>
-        <h2>Brilliant Academic Writers For Your Sociology Assignment</h2>
+        <h3>Brilliant Academic Writers For Your Sociology Assignment</h3>
         <p>We have sociology paper writers who have written hundreds of assignments on just about every topic in
           sociology there is – from the history of sociology science to how it is applied today by individuals,
           social institutes and even governments. Many of our writers have studied sociology for years and can
           easily craft unique pieces that other writing services simply can’t offer. Just let Assignment Help know
           what you need and we’ll work hard to get you a paper that earns you the best possible grade. We’re
           confident that once you hire us to complete your assignment you won’t want to hire anybody else.</p>
-        <h2>Specialist Subjects</h2>
+        <h3>Specialist Subjects</h3>
         <p>It is important that you find out exactly what type of assistance has been given before, so that you know
           if it will be affordable and suitable for you. The Assignment Writing is lucky enough to have experts
           with all different specialist subjects, so you can buy whatever type of help you need. Just tell us
           about your next project and we will assist you with selecting the right person for the job.Writing</p>
-        <h2>Why You Can Truly Trust Online Help with Sociology Homework</h2>
+        <h3>Why You Can Truly Trust Online Help with Sociology Homework</h3>
         <p>When it comes to writing a sociology paper, there are so many topics to choose from that it can be
           overwhelming. And then you have to construct the outline, gather reputable sources, and spend countless
           hours putting together an A+ worthy paper. Easier said than done, right? We know. There may be people in
@@ -67,7 +54,7 @@ export default function SociologyAssignment() {
           final paper, you will even learn a thing or two yourself. You no longer need to have any doubts. Save
           yourself the stress. Save yourself the time. Use our services and succeed in your sociology class. There
           is nothing wrong with relying on a little help sometimes. You’ll see that it can take you very far.</p>
-        <h2>Easy Steps To Get Immediate Sociology The Assignment Writing</h2>
+        <h3>Easy Steps To Get Immediate Sociology The Assignment Writing</h3>
         <p>The Assignment Writing is one of the best sociology homework helpers and the process of hiring our
           company is tremendously easy. You simply submit your requirements, including paper length, deadline,
           writing style, etc. and our customer service representative will give you a no-obligation price
@@ -81,7 +68,7 @@ export default function SociologyAssignment() {
           committed to keeping your academic reputation intact. All papers are written 100% from scratch, ensuring
           that yours will be unique and original and will pass all of the latest copy checking software available.
         </p>
-        <h2>Quality And Affordable - Hire Our Experts Today</h2>
+        <h3>Quality And Affordable - Hire Our Experts Today</h3>
         <p>Our assistance comes with the best possible rates. Unlike sociology homework helpers that charge a flat
           rate before even looking at your assignment, we provide a quote based on your assignment’s
           specifications and requirements. There the top-notch quality we provide, there simply is no other

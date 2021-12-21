@@ -23,7 +23,9 @@ import card2 from '../src/assets/img2/ser2.png'
 import card3 from '../src/assets/img2/ser3.png' 
 import card4 from '../src/assets/img2/ser4.png' 
 import Footer from './components/Footer';
+import TypeWriter from 'react-animate-typewriter';
 
+import 'animate.css';
 
 
 
@@ -56,7 +58,7 @@ function Home() {
     <div className="row align-items-center">
       <div className="col-md-6 col-lg-6 col-sm-12">
         <div className="hero-slider-content text-white pt-5">
-          <h1><span className="ico">The</span> <span className="text-white">Assignment</span> <span className="ico">Writing</span></h1>
+          <h1 className=''><span className="ico">The</span> <span className="text-white"><TypeWriter typing={1}>Assignment</TypeWriter></span> <span className="ico">Writing</span></h1>
           <p className="lead"> <i className="fa fa-check check-2 ico " />Quality Assignment Help By Expert Writers</p>
           <p className="lead"> <i className="fa fa-check check-2 ico" />100+ Students Support Executive to Listen Students Requirement
           </p>
@@ -79,7 +81,7 @@ function Home() {
       <div className="col-md-6 col-sm-12 col-lg-6">
         <div className="image-wrap pt-5">
           {/* <img src="img/t1-hero-img.svg" class="img-fluid custom-width" alt="hero" /> */}
-          <h1><span className="ico">The</span> <span className="text-white">Assignment</span> <span className="ico">Writing</span></h1>
+          <h1><span className="ico">The</span> <span className="text-white"><TypeWriter typing={1}> Assignment</TypeWriter></span> <span className="ico">Writing</span></h1>
           <p className="text-white">Get Assignment Help From World’s No.1 Assignment Help Company</p>
           <form action>
             <input type="email" name="email" className="p-2" placeholder="Enter your Email" id size={30} minLength style={{width: '81%'}} /><br />
@@ -154,7 +156,7 @@ function Home() {
   </div>
 </section>
 {/* <section>
-<div className="container-fluid text-center bg-dark">
+<div className="container text-center bg-dark">
   <br />
   <h1 className="text-center ico">Power Content Creation </h1>
   <h5 className="text-white">The Salable Content Marketplace for Agencies &amp; Retailers</h5>
@@ -174,6 +176,19 @@ function Home() {
 </div>
 
 </section> */}
+<section className='text text-center p-5'>
+  <div className="container">
+    <h2 className='ico power'>Power Content Creation</h2>
+    <p>The Salable Content Marketplace for Agencies & Retailers</p>
+    <div className=''>
+      <p className='ml-4 d-inline'><i className='fa fa-check ico'></i>Ghostwritten Contenr</p>
+      <p className='ml-4 d-inline'><i className='fa fa-check ico'></i>Custom Writing, Rewriting & Editing</p>
+      <p className='ml-4 d-inline'><i className='fa fa-check ico'></i>Quick Turnaround Time</p>
+      <p className='ml-4 d-inline'><i className='fa fa-check ico'></i>Unlimited Revisions</p>
+    </div>
+  </div>
+</section>
+
 <section>
 
 </section>
@@ -346,7 +361,7 @@ function Home() {
       </div>
     </div>
     <div className="row">
-      <div className="col-lg-4 col-md-6 col-sm-6">
+      <div className="col-lg-4 col-md-6 col-sm-6 animate__animated animate__backInLeft">
         <div className="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
           <span className="fa fa-truck icon-lg color-secondary d-block mb-4" />
           <h5>On Time Delivery</h5>
@@ -357,7 +372,7 @@ function Home() {
           <br />
         </div>
       </div>
-      <div className="col-lg-4 col-md-6 col-sm-6">
+      <div className="col-lg-4 col-md-6 col-sm-6 animate__animated animate__backInLeft">
         <div className="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
           <span className="fa fa-phone icon-lg color-secondary d-block mb-4" />
           <h5>24 X 7 Live Help</h5>
@@ -369,7 +384,7 @@ function Home() {
           <br />
         </div>
       </div>
-      <div className="col-lg-4 col-md-6 col-sm-6">
+      <div className="col-lg-4 col-md-6 col-sm-6 animate__animated animate__backInLeft">
         <div className="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
           <span className="fa fa-user icon-lg color-secondary d-block mb-4" />
           <h5>5,068 PhD Experts</h5>
@@ -382,7 +397,7 @@ function Home() {
           
         </div>
       </div>
-      <div className="col-lg-4 col-md-6 col-sm-6">
+      <div className="col-lg-4 col-md-6 col-sm-6 animate__animated animate__backInRight">
         <div className="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
           <span className="fa fa-book icon-lg color-secondary d-block mb-4" />
           <h5>Services For All Subjects</h5>
@@ -392,7 +407,7 @@ function Home() {
             Management, Accounting, Marketing,</p>
         </div>
       </div>
-      <div className="col-lg-4 col-md-6 col-sm-6">
+      <div className="col-lg-4 col-md-6 col-sm-6 animate__animated animate__backInRight">
         <div className="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
           <span className="fa fa-certificate icon-lg color-secondary d-block mb-4" />
           <h5>Plagiarism Free Work</h5>
@@ -404,7 +419,7 @@ function Home() {
           <br />
         </div>
       </div>
-      <div className="col-lg-4 col-md-6 col-sm-6">
+      <div className="col-lg-4 col-md-6 col-sm-6 animate__animated animate__backInRight">
         <div className="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
           <span className="fa fa-money icon-lg color-secondary d-block mb-4" />
           <h5>Best Price Guarantee</h5>

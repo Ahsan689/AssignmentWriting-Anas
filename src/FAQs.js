@@ -30,7 +30,7 @@ export default function FAQs() {
   <br />
   <br />
   <div className="container ">
-    <h4 className="">Frequently Asked Questions</h4>
+    <h4 className="ico">Frequently Asked Questions</h4>
     <h4 className=" ico">Q: What is the procedure to place an order?</h4>
     <p>You have to fill in the online order form with every required field. After it, click on ‘Get Price’
       button to see our pricing structure. Proceed with your selection of price and standard for the table of

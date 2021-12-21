@@ -1619,6 +1619,10 @@ select.form-control.has-value{
     transition: all 0.5s ease 0s;
     -webkit-transition: all 0.5s ease 0s;
 }
+.text{
+    background-color:#424141;
+}
+
 .services-block-three>a:after {
     display: block;
     content: "";
