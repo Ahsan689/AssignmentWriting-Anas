@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+#myInp::placeholder {
+  color: #ff0000;
+  opacity: 1;
+}

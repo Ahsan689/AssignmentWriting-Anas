@@ -3,11 +3,11 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import { Link } from 'react-router-dom'
 
-import img1 from '../src/assets/img2/2.jpg'
-import img2 from '../src/assets/img2/3.jpg'
-import img3 from '../src/assets/img2/4.jpg'
-import img4 from '../src/assets/img2/5.jpg'
-import img5 from '../src/assets/img2/6.jpg'
+import img1 from '../src/assets/img2/2-min.jpg'
+import img2 from '../src/assets/img2/3-min.jpg'
+import img3 from '../src/assets/img2/4-min.jpg'
+import img4 from '../src/assets/img2/5-min.jpg'
+import img5 from '../src/assets/img2/6-min.jpg'
 import img6 from '../src/assets/img2/7.jpg'
 import img7 from '../src/assets/img2/8.jpg'
 import img8 from '../src/assets/img2/3-01.jpg'
@@ -37,11 +37,9 @@ export default function Portfolio() {
       </div>
     </section>
     {/*hero section end*/}
-    <br />
-    <br />
-    <br />
+    
     <div className="container text-center video">
-      <h2 className="text-center mb-5 ico">Video Portfolio</h2>
+      {/* <h2 className="text-center mb-5 ico">Video Portfolio</h2>
       <span className="animate-border mr-auto ml-auto mb-4" />
 
       <div className="row justify-content-around">
@@ -67,44 +65,45 @@ export default function Portfolio() {
           <video src="video6.mp4" className="img-fluid video-6" poster="6.png" height="350px" width="450px" controls />
         </div>
         <br />
-      </div>
+      </div> */}
       <div className="container text-center image">
         <h2 className="text-center mb-5 ico">Image Portfolio</h2>
         <span className="animate-border mr-auto ml-auto mb-4" />
 
         <div className="row justify-content-between">
           <div className="col-md-4 photo-1">
-            <Link to={img1}><img src={img1} className="img-fluid image-1"  width="100%" alt /></Link>
+            {/* <a href={img1} target="_blank"><img src={img1} className="img-fluid image-1"  width="100%" alt="AssignmentWriting" /></a> */}
+            <Link target="_blank" to={img1}><img src={img1} className="img-fluid image-1"  width="100%" alt="AssignmentWriting" /></Link>
           </div>
           <div className="col-md-4 photo-1">
-            <Link to={img2}><img src={img2} className="img-fluid image-2"  width="100%" alt /></Link>
+            <Link  target="_blank" to={img2}><img src={img2} className="img-fluid image-2"  width="100%" alt="AssignmentWriting" /></Link>
           </div>
           <div className="col-md-4 photo-1">
-            <Link to={img3}><img src={img3} className="img-fluid image-3"  width="100%" alt /></Link>
+            <Link  target="_blank" to={img3}><img src={img3} className="img-fluid image-3"  width="100%" alt="AssignmentWriting" /></Link>
           </div>
         </div>
         <br />
         <div className="row justify-content-between">
           <div className="col-md-4 photo-1">
-            <Link to={img4}><img src={img4} className="img-fluid image-4"  width="100%" alt /></Link>
+            <Link  target="_blank" to={img4}><img src={img4} className="img-fluid image-4"  width="100%" alt="AssignmentWriting" /></Link>
           </div>
           <div className="col-md-4 photo-1">
-            <Link to={img5}><img src={img5} className="img-fluid image-5"  width="100%" alt /></Link>
+            <Link  target="_blank" to={img5}><img src={img5} className="img-fluid image-5"  width="100%" alt="AssignmentWriting" /></Link>
           </div>
           <div className="col-md-4 photo-1">
-            <Link to={img6}> <img src={img6} className="img-fluid image-6"  width="100%" alt /></Link>
+            <Link  target="_blank" to={img6}> <img src={img6} className="img-fluid image-6"  width="100%" alt="AssignmentWriting" /></Link>
           </div>
         </div>
         <br />
         <div className="row row-last justify-content-between">
           <div className="col-md-4 photo-1">
-            <Link to={img7}> <img src={img7} className="img-fluid image-7"  width="100%" alt /> </Link>
+            <Link  target="_blank" to={img7}> <img src={img7} className="img-fluid image-7"  width="100%" alt="AssignmentWriting" /> </Link>
           </div>
           <div className="col-md-4 photo-1">
-            <Link to={img8}> <img src={img8} className="img-fluid image-8"  width="100%" alt /></Link>
+            <Link  target="_blank" to={img8}> <img src={img8} className="img-fluid image-8"  width="100%" alt="AssignmentWriting" /></Link>
           </div>
           <div className="col-md-4 photo-1">
-            <Link to={img9}>  <img src={img9} className="img-fluid image-9"  width="100%" alt /></Link>
+            <Link  target="_blank" to={img9}>  <img src={img9} className="img-fluid image-9"  width="100%" alt="AssignmentWriting" /></Link>
           </div>
         </div>
         <br />

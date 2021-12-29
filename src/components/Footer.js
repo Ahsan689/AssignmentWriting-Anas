@@ -10,7 +10,7 @@ export default function Footer() {
     <Link to="/RefundPolicy" className="policy">Refund Policy</Link>
     <Link to="/CencellationPolicy" className="policy">Cancellation Policy</Link>
     <Link to="/TermConditions" className="policy">Terms &amp; Condition</Link>
-    <Link to="/PrivicyPolicy" className="policy">Privicy Policy</Link>
+    <Link to="/PrivicyPolicy" className="policy">Privacy Policy</Link>
     <Link to="/faq" className="policy">faq</Link>
     <Link to="/contact" className="policy">Contact US</Link>
     <Link to="/ReferFriend" className="policy">Refer a Friend </Link>

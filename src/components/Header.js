@@ -1,5 +1,5 @@
 import React from 'react'
-import assignmentwriting from '../assets/img/assignment-Writing.png'
+import assignmentwriting from '../assets/img2/assignment-Writing.webp'
 import {Navbar,NavDropdown,Container,Nav,Form,FormControl,Button} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 // import { Link } from 'react-router-dom'
@@ -37,7 +37,7 @@ export default function Header() {
   <Navbar bg=""  className='pink stick sticky-top' expand="lg">
   <Container fluid>
     <Navbar.Brand href="/" >
-      <a to="/app.js"><img className="ml-5" src={assignmentwriting} width="100%" height="70" alt="" /></a>
+      <a to="/app.js"><img className="ml-5" src={assignmentwriting} width="100%" height="70" alt="HeaderLogo" /></a>
       </Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">

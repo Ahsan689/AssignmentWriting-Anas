@@ -91,11 +91,27 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+  }
 
-ol, ul {
-    /* list-style: none; */
+
+.type-out{
+    color: #dd9933;
+    display: inline-block;
+    
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-
+.type-in{
+    color: #fff;
+    display: inline-block;
+    
+    font-weight: bold;
+  
+}
 blockquote, q {
     quotes: none;
 }
@@ -204,6 +220,9 @@ strong, b {
 
 .pt-100 {
     padding-top: 100px;
+}
+.type-out{
+    color: ;
 }
 
 .pt-165 {
@@ -5399,7 +5418,7 @@ ul>li>i{
     color: #fff;
 }
 .post{
-    background-color: rgb(5, 5, 53);
+    background-color:#4d3f25;
  
 }
 .writting{
@@ -5607,3 +5626,8 @@ h3>a{
     color: purple;
 
 }
+#myinp::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black !important;
+    opacity: 1;
+  }
+  
