@@ -78,7 +78,7 @@ export default function Statistics() {
               is to be had 24/7. We’ll do rush jobs!
             </p>
             <p>
-              We’ll offer you with a 100�curate facts venture that you could
+              We’ll offer you with a 100 acurate facts venture that you could
               accept as true with could be authentic and authentic. We recognize
               your confidentiality and could make sure to ship your venture for
               your private email. This manner no person else receives to look it

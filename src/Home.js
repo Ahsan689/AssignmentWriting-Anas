@@ -220,9 +220,9 @@ function Home() {
         <div className="container">
           <div className="row">
             <div className="col-12 text-center numbers">
-              <a href="/" className="btn btn-pill primary-bg text-dark bor">
+              {/* <a href="/" className="btn btn-pill primary-bg text-dark bor">
                 <p>It,s in the number</p>
-              </a>
+              </a> */}
               {/* <span className="animate-border mr-auto ml-auto mb-4" /> */}
             </div>
           </div>

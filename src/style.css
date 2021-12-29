@@ -168,7 +168,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.441em;
+    font-size: 1.441em;
 }
 
 h3 {
@@ -5041,9 +5041,7 @@ button.scroll-top:focus{
     color: #fff;
 }
 
-li{
-display: none;
-}
+
 .btn.border-radius{
     border-radius: 4px;
 }
@@ -5304,7 +5302,7 @@ ul>li>i{
     margin-right: 20px;
 }
 .client{
-    background-color: #d9b88e;
+    background-color:#985502;
    
     margin: 0 auto;
 }

@@ -21,8 +21,8 @@ export default function Review() {
               <span className="fa fa-star rating" />
               <span className="fa fa-star rating" />
               <span className="fa fa-star rating" />
-              <span className="fa fa-star-half rating" />
-              <span className="fa fa-star-half rating" />
+              <span className="fa fa-star rating" />
+              <span className="fa fa-star rating" />
               <p>OVERALL RATING</p>
             </div>
           </div>
@@ -48,8 +48,8 @@ export default function Review() {
           <span className="fa fa-star rating" />
           <span className="fa fa-star rating" />
           <span className="fa fa-star rating" />
-          <span className="fa fa-star-half rating" />
-          <span className="fa fa-star-half rating" />
+          <span className="fa fa-star rating" />
+          <span className="fa fa-star rating" />
           <p>I was looking for writing help for my research paper and my friend suggested me to contact this
             website. I checked the samples and blogs and decided to take writing assistance. I am so happy
             with my decision as I got an A in my paper. Thanks a lot!</p>
@@ -62,8 +62,8 @@ export default function Review() {
           <span className="fa fa-star rating" />
           <span className="fa fa-star rating" />
           <span className="fa fa-star rating" />
-          <span className="fa fa-star-half rating" />
-          <span className="fa fa-star-half rating" />
+          <span className="fa fa-star rating" />
+          <span className="fa fa-star rating" />
           <p>Due to lack of time, I was not able to edit and proofread my dissertation. So I decided to take
             help from this website. These people proofread and edited the paper so well that it had no
             mistakes. Extremely grateful to these guys!</p>
@@ -76,8 +76,8 @@ export default function Review() {
           <span className="fa fa-star rating" />
           <span className="fa fa-star rating" />
           <span className="fa fa-star rating" />
-          <span className="fa fa-star-half rating" />
-          <span className="fa fa-star-half rating" />
+          <span className="fa fa-star rating" />
+          <span className="fa fa-star rating" />
           <p>Taking help with my dissertation proposal was the best decision. I got such an amazing grade I
             always dreamed of. So thankful to these people who made my dream come true. Grateful!!! </p>
           <p><b>User ID – 12901 | </b></p>
@@ -92,8 +92,8 @@ export default function Review() {
           <span className="fa fa-star rating" />
           <span className="fa fa-star rating" />
           <span className="fa fa-star rating" />
-          <span className="fa fa-star-half rating" />
-          <span className="fa fa-star-half rating" />
+          <span className="fa fa-star rating" />
+          <span className="fa fa-star rating" />
           <p>I received the result of the essay today that you guys prepared for me. I got an A+ in it. I am
             too happy. I would have never been able to get such amazing grades on my own. Thank you so much!
           </p>
@@ -106,8 +106,8 @@ export default function Review() {
           <span className="fa fa-star rating" />
           <span className="fa fa-star rating" />
           <span className="fa fa-star rating" />
-          <span className="fa fa-star-half rating" />
-          <span className="fa fa-star-half rating" />
+          <span className="fa fa-star rating" />
+          <span className="fa fa-star rating" />
           <p>Thank you very much for helping me in this project research work at the time. This is reassuring
             after many trials. Thanks alot.!!</p>
           <p><b>User ID – 13478 |</b></p>
@@ -119,8 +119,8 @@ export default function Review() {
           <span className="fa fa-star rating" />
           <span className="fa fa-star rating" />
           <span className="fa fa-star rating" />
-          <span className="fa fa-star-half rating" />
-          <span className="fa fa-star-half rating" />
+          <span className="fa fa-star rating" />
+          <span className="fa fa-star rating" />
           <p>This website comes to my mind whenever I need help with my essays on management. The reason is
             that they have amazing writers who write high-quality essays for me. I would have not been able
             to get good grades every time if I had not taken assistance from this website.</p>
@@ -136,8 +136,8 @@ export default function Review() {
           <span className="fa fa-star rating" />
           <span className="fa fa-star rating" />
           <span className="fa fa-star rating" />
-          <span className="fa fa-star-half rating" />
-          <span className="fa fa-star-half rating" />
+          <span className="fa fa-star rating" />
+          <span className="fa fa-star rating" />
           <p>I recently took assistance from this website for my management essay on the recommendation of my
             friend. I was worried about the quality but it was amazing. Also, the work was properly cited
             and I received it on time. Thanks instant dissertation help.</p>
@@ -150,8 +150,8 @@ export default function Review() {
           <span className="fa fa-star rating" />
           <span className="fa fa-star rating" />
           <span className="fa fa-star rating" />
-          <span className="fa fa-star-half rating" />
-          <span className="fa fa-star-half rating" />
+          <span className="fa fa-star rating" />
+          <span className="fa fa-star rating" />
           <p>Being a non-English speaker, I get problem in writing my dissertations perfectly. I got poor
             marks in my previous papers, but now I get good marks. It happened only because of this website.
             Thanks people!</p>
@@ -166,8 +166,8 @@ export default function Review() {
           <span className="fa fa-star rating" />
           <span className="fa fa-star rating" />
           <span className="fa fa-star rating" />
-          <span className="fa fa-star-half rating" />
-          <span className="fa fa-star-half rating" />
+          <span className="fa fa-star rating" />
+          <span className="fa fa-star rating" />
           <p>After struggling a lot with my thesis, I<br /> decided to take help from a professional.<br /> This
             website
             is quite popular among my classmates, so I decided to place an order<br /> with it. I couldn’t
