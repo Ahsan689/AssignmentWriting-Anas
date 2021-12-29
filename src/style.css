@@ -1921,13 +1921,13 @@ select.form-control.has-value{
     color: #ffffff !important;
     opacity: 1;
 }
-
 .services-single:hover {
     transition: all 0.3s ease-in;
-    background: linear-gradient(75deg, #dd993310 10%, #794a03);
-
+    background: linear-gradient(
+75deg, #dd9933 10%, #794a03);
     color: #fff;
 }
+
 .services-single:hover .services-single:after{
     z-index: 999;
 }
@@ -5261,6 +5261,7 @@ display: none;
 }
 .policy{
     border-right: 1px solid black;
+    
 
 }
 
